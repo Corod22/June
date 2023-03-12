@@ -1,7 +1,8 @@
 ﻿// 15. Дано число. Проверить кратно ли оно 7 и 23
-Console.WriteLine("Введите число N");
-int numberN=Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число N");
+// int numberN=Convert.ToInt32(Console.ReadLine());
 
+int numberN=Number ();
 string output = NumberN2(numberN) ? "Число кратное 7":"Число не кратно 7 ";
 string output2 = NumberN3(numberN) ? "Число кратное 23":"Число не кратно 23 ";
 Console.WriteLine(output);
@@ -23,9 +24,9 @@ bool NumberN3 (int num3)
     return false;
 }
 
-// void Number (int num)
-// {
-// Console.WriteLine("Введите число N");
-// int numberN=Convert.ToInt32(Console.ReadLine()); 
-// return numberN;
-// }
+int Number ()
+{
+Console.WriteLine("Введите число N");
+int numberN=Convert.ToInt32(Console.ReadLine()); 
+return numberN;
+}
